@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="dash.css">
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/4e9e2509eb.js" crossorigin="anonymous"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h1>Agromate</h>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fa fa-bell" aria-hidden="true"></i>
+            <div class="user">
+                <img src="images/user.png" alt="">
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-th" aria-hidden="true"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <div>Nearby Landlords</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                        <div>Progress Tracker</div>
+                    </a>
+                </li>
+              
+                <li>
+                    <a href="#">
+                        <i class="fa fa-certificate" aria-hidden="true"></i>
+                        <div>Disease Detector</div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-sign-out " aria-hidden="true"></i>
+                        <div>Log-out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="main">
+            <h1>Namaste, Aman</h1>
+            <div class="dashh">
+             
+               <div class="card1">
+                <img src="images/user.png" alt="">
+                <div class="list"><ul>
+                    <li>NAME:</li>
+                    <li>E-MAIL:</li>
+                    <li>PH:</li>
+                    <li>STATE:</li>
+                    <li>REGION:</li>
+                    <li>AADHAR:</li>
+                    
+                </ul></div>
+               </div>
+               <div class="card2">
+                   <img src="images/Farmer-bro.png" alt="">
+                   <p>huihgjkhkjghjkhgjkfdhn</p>
+               </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="main2">
+          <h2>LIST OF LANDLORDS IN YOUR AREA....</h2>
+          <div class="dashh">
+              <div class="box">
+                <img src="images/user2.png" alt="">
+                  <div class="content">
+                   <ul>
+                    <li>NAME:</li>
+                    <li>E-MAIL:</li>
+                    <li>PH:</li>
+                    <li>STATE:</li>
+                    <li>REGION:</li>
+                    <li>CROP TYPE:</li>
+                    <li>AADHAR:</li>
+                   </ul>
+                   <button class="btn"><a href="">START WORK</a></button>
+                  </div>
+              </div>
+
+              <div class="box">
+                <img src="images/user2.png" alt="">
+                  <div class="content">
+                   <ul>
+                    <li>NAME:</li>
+                    <li>E-MAIL:</li>
+                    <li>PH:</li>
+                    <li>STATE:</li>
+                    <li>REGION:</li>
+                    <li>CROP TYPE:</li>
+                    <li>AADHAR:</li>
+                   </ul>
+                   <button class="btn"><a href="">START WORK</a></button>
+                  </div>
+              </div>
+
+              <div class="box">
+                <img src="images/user2.png" alt="">
+                  <div class="content">
+                   <ul>
+                    <li>NAME:</li>
+                    <li>E-MAIL:</li>
+                    <li>PH:</li>
+                    <li>STATE:</li>
+                    <li>REGION:</li>
+                    <li>CROP TYPE:</li>
+                    <li>AADHAR:</li>
+                   </ul>
+                   <button class="btn"><a href="">START WORK</a></button>
+                  </div>
+              </div>
+
+           
+            </div>
+          </div>
+       </div> -->
+
+
+       <div class="main2">
+           <div class="charts">
+               <div class="chart">
+                    <h2>GROWTH PROGRESS (in weeks)</h2>
+                    <canvas id="linechart"></canvas>
+               </div>
+               
+           </div>
+       </div>
+
+    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+<script src="chart1.js"></script>
+
+
+</body>
+</html>
